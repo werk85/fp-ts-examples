@@ -5,10 +5,14 @@
   "license": "MIT",
   "dependencies": {
     "fp-ts": "^1.17.4",
+    "io-ts": "^1.8.6",
+    "io-ts-types": "^0.4.7",
+    "monocle-ts": "^1.7.2",
     "ts-node": "^8.1.0",
     "typescript": "^3.4.5"
   },
   "scripts": {
-    "lesson:1": "tsc && node dist/lesson-1.js"
+    "lesson:1": "tsc && node dist/lesson-1.js",
+    "lesson:2": "tsc && node dist/lesson-2.js"
   }
 }
